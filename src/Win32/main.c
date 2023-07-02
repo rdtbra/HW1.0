@@ -541,7 +541,7 @@ char *mainPasswordPtr = NULL;
 //To: Scott and the gang burned Nov 24 1998 by Luke Moloney.
 //static char leakString[] = "Revolutionary ne 3-d space combat with an advanced camera model and excellent graphics.";
 //To: Scott and the gang burned Dec 21 1998 by Luke Moloney.
-//static char leakString[] = "BEGLEITFREGATTE\n\x0ANGRIFFSBOMBER\n\x0TRÄGERSCHIFF\n\x0TARNKAPPENJÄGER\n\x0TARNFELDGENERATOR\n\x0DROHNEN-FREGATTE\n";
+//static char leakString[] = "BEGLEITFREGATTE\n\x0ANGRIFFSBOMBER\n\x0TRÃ„GERSCHIFF\n\x0TARNKAPPENJÃ„GER\n\x0TARNFELDGENERATOR\n\x0DROHNEN-FREGATTE\n";
 //To: Scott and the gang burned Dec 21 1998 by Luke Moloney.
 //static char leakString[] = "noPlug\x0nisNoLockout\x0nisCounter\x0noPause\x0password\x0smCentreCamera\x0onlyPacking\x0disablePacking\x0disableAVI\x0allowPacking/noPalettes";
 //To: Sierra/Sierra QA
@@ -3279,6 +3279,7 @@ void RunPatcher(void)
     Outputs     :
     Return      : Exit code (Windows provides an intelligible number)
 ----------------------------------------------------------------------------*/
+/* RDT: 20230702 - Entry point do game. */
 int PASCAL WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance,
                         LPSTR commandLine, int nCmdShow)
 {
